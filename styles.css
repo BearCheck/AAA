@@ -141,7 +141,7 @@ button{font:inherit}
   inset:0;
   background:
     radial-gradient(900px 520px at 30% 15%, rgba(194,168,120,.18), transparent 62%),
-    url("https://images.unsplash.com/photo-1520975958225-8cc2b28f91b1?auto=format&fit=crop&w=2400&q=80") center/cover no-repeat;
+    url("photo/salon.jpg") center/cover no-repeat;
   filter:saturate(.92) contrast(1.02);
 }
 .heroOverlay{
@@ -201,7 +201,7 @@ button{font:inherit}
   border:1px solid var(--line2);
   background:
     radial-gradient(520px 300px at 60% 15%, rgba(194,168,120,.20), transparent 60%),
-    url("https://images.unsplash.com/photo-1592647420148-bfcc177e2117?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;
+    url("photo/1.jpg") center/cover no-repeat;
   box-shadow:var(--shadow-soft);
 }
 
@@ -245,7 +245,7 @@ button{font:inherit}
 .keyInfoPhone{font-size:22px;font-weight:600;color:var(--text);text-decoration:none}
 .keyInfoPhone:hover{color:rgba(255,255,255,.92)}
 
-.galleryGrid{display:grid;grid-template-columns:repeat(12, 1fr);gap:12px}
+.galleryGrid{display:grid;grid-template-columns:repeat(3, 1fr);gap:12px}
 .gItem{
   position:relative;
   border:1px solid var(--line2);
@@ -254,15 +254,10 @@ button{font:inherit}
   background:var(--panel);
   cursor:pointer;
   padding:0;
+  aspect-ratio:4/3;
 }
 .gItem img{width:100%;height:100%;object-fit:cover;transform:scale(1.02);transition:transform 520ms var(--ease), filter 520ms var(--ease)}
 .gItem:hover img{transform:scale(1.08);filter:contrast(1.05) saturate(1.05)}
-.gItem:nth-child(1){grid-column:span 7;aspect-ratio:16/10}
-.gItem:nth-child(2){grid-column:span 5;aspect-ratio:1/1}
-.gItem:nth-child(3){grid-column:span 4;aspect-ratio:1/1}
-.gItem:nth-child(4){grid-column:span 4;aspect-ratio:1/1}
-.gItem:nth-child(5){grid-column:span 4;aspect-ratio:1/1}
-.gItem:nth-child(6){grid-column:span 12;aspect-ratio:21/9}
 
 .testimonials{display:grid;grid-template-columns:repeat(3, 1fr);gap:14px}
 .tCard{
@@ -348,7 +343,7 @@ button{font:inherit}
   .heroMedia{
     background:
       radial-gradient(900px 520px at 38% 8%, rgba(194,168,120,.18), transparent 62%),
-      url("https://images.unsplash.com/photo-1520975958225-8cc2b28f91b1?auto=format&fit=crop&w=2400&q=80") 55% 22%/cover no-repeat;
+      url("photo/salon.jpg") 55% 22%/cover no-repeat;
   }
 
   .aboutGrid{grid-template-columns:1fr;}
@@ -360,8 +355,6 @@ button{font:inherit}
   .nav{display:none}
   .burger{display:inline-flex}
   .mobileCtas{grid-template-columns:1fr}
-  .gItem:nth-child(1){grid-column:span 12}
-  .gItem:nth-child(2){grid-column:span 12;aspect-ratio:16/10}
-  .gItem:nth-child(3),.gItem:nth-child(4),.gItem:nth-child(5){grid-column:span 12;aspect-ratio:16/10}
-  .gItem:nth-child(6){grid-column:span 12}
+  .galleryGrid{grid-template-columns:1fr}
+  .gItem{aspect-ratio:16/10}
 }
