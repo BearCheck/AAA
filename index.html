@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A.S Coiffure — salon urbain parisien. Coupe, barbe, style — sans compromis." />
+    <title>A.S Coiffure — Paris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Aller au contenu</a>
+
+    <header class="header" id="top">
+      <div class="container headerInner">
+        <a class="brand" href="#top" aria-label="A.S Coiffure">
+          <span class="brandMark" aria-hidden="true">A.S</span>
+          <span class="brandText">Coiffure</span>
+        </a>
+
+        <nav class="nav" aria-label="Navigation">
+          <a class="navLink" href="#about">À propos</a>
+          <a class="navLink" href="#services">Services</a>
+          <a class="navLink" href="#keyinfo">Infos</a>
+          <a class="navLink" href="#gallery">Galerie</a>
+          <a class="navLink" href="#avis">Avis</a>
+          <a class="navLink" href="#contact">Contact</a>
+        </nav>
+
+        <div class="headerActions">
+          <a class="btn btnGhost" href="tel:+33951147822">09 51 14 78 22</a>
+          <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobileMenu" id="mobileMenu" hidden>
+        <div class="container mobileMenuInner">
+          <a class="mobileLink" href="#about">À propos</a>
+          <a class="mobileLink" href="#services">Services</a>
+          <a class="mobileLink" href="#keyinfo">Infos</a>
+          <a class="mobileLink" href="#gallery">Galerie</a>
+          <a class="mobileLink" href="#avis">Avis</a>
+          <a class="mobileLink" href="#contact">Contact</a>
+          <div class="mobileCtas">
+            <a class="btn" href="tel:+33951147822">Appeler maintenant</a>
+            <a class="btn btnGhost" href="#contact">Nous trouver</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="A.S Coiffure">
+        <div class="heroMedia" aria-hidden="true"></div>
+        <div class="heroOverlay" aria-hidden="true"></div>
+
+        <div class="container heroContent">
+          <div class="heroKicker" data-reveal>
+            <span class="dot" aria-hidden="true"></span>
+            Barber urbain parisien
+          </div>
+          <h1 class="heroTitle" data-reveal>L’excellence du style, au cœur de Paris</h1>
+          <p class="heroSub" data-reveal>Coupe, barbe, style — sans compromis</p>
+
+          <div class="heroCtas" data-reveal>
+            <a class="btn" href="tel:+33951147822">Appeler maintenant</a>
+            <a class="btn btnGhost" href="#contact">Nous trouver</a>
+          </div>
+
+          <p class="heroNote" data-reveal>Sans rendez-vous pour les hommes</p>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="sectionHead" data-reveal>
+            <h2 class="h2">A.S Coiffure, précision & attitude</h2>
+            <p class="lead">Un barber pensé pour l’homme urbain et exigeant — service rapide, finitions nettes, expérience premium.</p>
+          </div>
+
+          <div class="aboutGrid">
+            <div class="aboutText" data-reveal>
+              <p>Chez <strong>A.S Coiffure</strong>, chaque détail compte : lignes propres, volumes maîtrisés, barbe structurée. Notre signature : une exécution précise et un style moderne, sans surpromesse.</p>
+              <p>Situé au cœur de Paris, le barber accueille une clientèle active qui veut du résultat, vite — tout en gardant une perception haut de gamme.</p>
+              <div class="aboutStats">
+                <div class="stat">
+                  <div class="statVal">Paris 2e</div>
+                  <div class="statLbl">48 Rue Greneta</div>
+                </div>
+                <div class="stat">
+                  <div class="statVal">Sans RDV</div>
+                  <div class="statLbl">pour les hommes</div>
+                </div>
+                <div class="stat">
+                  <div class="statVal">Finitions</div>
+                  <div class="statLbl">premium</div>
+                </div>
+              </div>
+            </div>
+            <div class="aboutMedia" data-reveal aria-label="Intérieur du salon"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="sectionHead" data-reveal>
+            <h2 class="h2">Services & tarifs</h2>
+            <p class="lead">Une grille claire, des gestes sûrs. Prix indicatifs — ajustés selon la coupe / la barbe.</p>
+          </div>
+
+          <div class="servicesGrid">
+            <article class="card" data-reveal>
+              <div class="cardTop">
+                <h3 class="h3">Homme</h3>
+                <p class="muted">Coupe & barbe, finitions impeccables.</p>
+              </div>
+              <ul class="priceList">
+                <li><span>Coupe</span><span class="price">25€</span></li>
+                <li><span>Coupe + Barbe</span><span class="price">35€</span></li>
+                <li><span>Barbe</span><span class="price">15€</span></li>
+                <li><span>Dégradé à blanc</span><span class="price">28€</span></li>
+              </ul>
+            </article>
+
+            <article class="card" data-reveal>
+              <div class="cardTop">
+                <h3 class="h3">Barbe & détails</h3>
+                <p class="muted">Contours nets, entretien, finitions.</p>
+              </div>
+              <ul class="priceList">
+                <li><span>Barbe (taille)</span><span class="price">15€</span></li>
+                <li><span>Contours</span><span class="price">10€</span></li>
+                <li><span>Rasage</span><span class="price">sur demande</span></li>
+                <li><span>Finition (styling)</span><span class="price">incluse</span></li>
+              </ul>
+            </article>
+
+            <article class="card cardAccent" data-reveal>
+              <div class="cardTop">
+                <h3 class="h3">Signature</h3>
+                <p class="muted">L’expérience express, au niveau premium.</p>
+              </div>
+              <ul class="bullets">
+                <li>Consultation rapide</li>
+                <li>Finitions au détail</li>
+                <li>Style urbain & élégant</li>
+              </ul>
+              <div class="cardCta">
+                <a class="btn" href="tel:+33951147822">Réserver par téléphone</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="keyinfo">
+        <div class="container">
+          <div class="keyInfo" data-reveal>
+            <div class="keyInfoText">
+              <h2 class="h2">Sans rendez-vous pour les hommes</h2>
+              <p class="lead">Service <strong>walk-in</strong> disponible pendant les horaires d’ouverture. Passez quand vous voulez : on s’occupe du reste.</p>
+            </div>
+            <div class="keyInfoCta">
+              <div class="keyInfoLine">Appelez-nous :</div>
+              <a class="keyInfoPhone" href="tel:+33951147822">09 51 14 78 22</a>
+              <a class="btn btnGhost" href="#contact">Itinéraire</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="sectionHead" data-reveal>
+            <h2 class="h2">Galerie</h2>
+            <p class="lead">Ambiance, coupes, détails. Cliquez pour agrandir.</p>
+          </div>
+
+          <div class="galleryGrid" data-reveal>
+            <button class="gItem" type="button" data-lightbox data-src="https://images.unsplash.com/photo-1592647420148-bfcc177e2117?auto=format&fit=crop&w=2000&q=80" aria-label="Ouvrir l’image 1">
+              <img alt="Barber shop" loading="lazy" src="https://images.unsplash.com/photo-1592647420148-bfcc177e2117?auto=format&fit=crop&w=1200&q=70" />
+            </button>
+            <button class="gItem" type="button" data-lightbox data-src="https://images.unsplash.com/photo-1517832606294-5c2b04f31c38?auto=format&fit=crop&w=2000&q=80" aria-label="Ouvrir l’image 2">
+              <img alt="Coupe homme" loading="lazy" src="https://images.unsplash.com/photo-1517832606294-5c2b04f31c38?auto=format&fit=crop&w=1200&q=70" />
+            </button>
+            <button class="gItem" type="button" data-lightbox data-src="https://images.unsplash.com/photo-1520975958225-8cc2b28f91b1?auto=format&fit=crop&w=2000&q=80" aria-label="Ouvrir l’image 3">
+              <img alt="Détail de finition" loading="lazy" src="https://images.unsplash.com/photo-1520975958225-8cc2b28f91b1?auto=format&fit=crop&w=1200&q=70" />
+            </button>
+            <button class="gItem" type="button" data-lightbox data-src="https://images.unsplash.com/photo-1541533848490-bc8115cd6522?auto=format&fit=crop&w=2000&q=80" aria-label="Ouvrir l’image 4">
+              <img alt="Ambiance salon" loading="lazy" src="https://images.unsplash.com/photo-1541533848490-bc8115cd6522?auto=format&fit=crop&w=1200&q=70" />
+            </button>
+            <button class="gItem" type="button" data-lightbox data-src="https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?auto=format&fit=crop&w=2000&q=80" aria-label="Ouvrir l’image 5">
+              <img alt="Outils de barbier" loading="lazy" src="https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?auto=format&fit=crop&w=1200&q=70" />
+            </button>
+            <button class="gItem" type="button" data-lightbox data-src="https://images.unsplash.com/photo-1520975682031-a25cfa3bbf0b?auto=format&fit=crop&w=2000&q=80" aria-label="Ouvrir l’image 6">
+              <img alt="Coiffage" loading="lazy" src="https://images.unsplash.com/photo-1520975682031-a25cfa3bbf0b?auto=format&fit=crop&w=1200&q=70" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="avis">
+        <div class="container">
+          <div class="sectionHead" data-reveal>
+            <h2 class="h2">Avis clients</h2>
+            <p class="lead">Des retours simples, une exigence constante.</p>
+          </div>
+
+          <div class="testimonials" data-reveal>
+            <article class="tCard">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="tText">Une bonne dizaines d’années que les deux me coiffe et me coupe les cheveux/barbe. Déjà à l’ancienne adresse plus haut dans la rue. Aujourd’hui je décide de laisser 5 étoiles car j’ai obtenu mon nouveau travail en partie grâce à ma coupe nickel. Et la barbe taillée a la perfection. Vous pouvez venir sans réservation et patienter sur les canapé confortablement. Top du top</p>
+              <div class="tMeta"><span class="tName">Nelson Porzel</span><span class="tSep">—</span><span class="tWhere">Google</span></div>
+            </article>
+            <article class="tCard">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="tText">Cela fait plus de 20 ans que je viens dans ce salon ! Déjà à l’époque, quand il était plus haut dans la rue Greneta, j’étais client fidèle. Depuis qu’il est à son emplacement actuel, le salon est neuf, propre, moderne, on s’y sent bien et c’est toujours aussi parfait : accueil chaleureux, simplicité efficace, et des dégradés impeccables. En prime ils vous offrent le café ! Toujours au top, Aziz et Samir sont tout simplement les meilleurs ! Je recommande à 1000 % !</p>
+              <div class="tMeta"><span class="tName">Amar Belhadj</span><span class="tSep">—</span><span class="tWhere">Google</span></div>
+            </article>
+            <article class="tCard">
+              <div class="stars" aria-label="5 étoiles">★★★★★</div>
+              <p class="tText">J’y vais depuis au moins 4 ans déjà et vraiment efficace. Sans rdv j’y vais toujours sur un coup de tête, toujours bien reçu en simplicité. J’y fais ma barbe et mes cheveux. Le prix est vraiment attractif pour le quartier. Ce commerce est vraiment acteur de la vie du quartier tout le monde se salue et se reconnaît.</p>
+              <div class="tMeta"><span class="tName">Julien Courois</span><span class="tSep">—</span><span class="tWhere">Google</span></div>
+            </article>
+          </div>
+
+          <div class="heroCtas" style="margin-top:14px" data-reveal>
+            <a class="btn btnGhost" href="https://share.google/VwBznQOqQP7wOGjXn" target="_blank" rel="noreferrer">Voir plus d’avis Google</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="sectionHead" data-reveal>
+            <h2 class="h2">Contact</h2>
+            <p class="lead">Venez nous voir — ou appelez pour une info rapide.</p>
+          </div>
+
+          <div class="contactGrid">
+            <div class="contactCard" data-reveal>
+              <div class="contactRow">
+                <div class="label">Adresse</div>
+                <div class="value">48 Rue Greneta, 75002 Paris</div>
+              </div>
+              <div class="contactRow">
+                <div class="label">Téléphone</div>
+                <div class="value"><a class="link" href="tel:+33951147822">09 51 14 78 22</a></div>
+              </div>
+              <div class="contactRow">
+                <div class="label">Horaires</div>
+                <div class="value">
+                  Lun–Sam : 10:00–19:30<br />
+                  Dimanche : Fermé
+                </div>
+              </div>
+
+              <div class="contactCtas">
+                <a class="btn" href="tel:+33951147822">Appeler maintenant</a>
+                <a class="btn btnGhost" href="https://www.google.com/maps?q=48%20Rue%20Greneta%2075002%20Paris" target="_blank" rel="noreferrer">Ouvrir dans Maps</a>
+              </div>
+            </div>
+
+            <div class="map" data-reveal>
+              <iframe
+                title="Google Maps — A.S Coiffure"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=48%20Rue%20Greneta%2075002%20Paris&output=embed"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container ctaInner" data-reveal>
+          <div>
+            <h2 class="h2">Passez sans rendez-vous ou appelez-nous</h2>
+            <p class="lead">Un style net, une exécution rapide, une finition premium.</p>
+          </div>
+          <div class="ctaActions">
+            <a class="btn" href="tel:+33951147822">09 51 14 78 22</a>
+            <a class="btn btnGhost" href="#services">Voir les services</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footerInner">
+        <div class="footLeft">
+          <div class="footBrand">A.S Coiffure</div>
+          <div class="footMeta">48 Rue Greneta, 75002 Paris</div>
+        </div>
+        <div class="footRight">
+          <a class="footLink" href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="footLink" href="mentions-legales.html">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightboxBackdrop" data-close></div>
+      <div class="lightboxDialog" role="dialog" aria-modal="true" aria-label="Agrandissement image">
+        <button class="lightboxClose" type="button" data-close aria-label="Fermer">×</button>
+        <img id="lightboxImg" alt="" />
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
